@@ -4,6 +4,8 @@ Members: Ben Schatz | Sean Daily | Vraj Patel | Ashley Cooper
 
 Goal:  Our goal was to decided between a predetermined list of ten cities, which one would be the best to live in long term, based on a certain criteria.
 
+Audience: Our audience is going to be anyone that may want to improve their quality of life when it comes to their living environment
+
 Hypothesis:  Nashville is the best city to live in
 
 Cities to investigate:: Atlanta, Austin, Boston, Chicago, Denver, Los Angeles, Nashville, New York, San Diego and Tampa
@@ -33,6 +35,21 @@ all the rankings from our categories.  We used this final city rank to form our 
 
 Conclusion:
 New York and Tampa came out tied for the best city to live in.  This is interesting becuase they were the most and least populated cities that we chose to anazlyze.
+
+Libraries Used:
+import pandas as pd
+from pathlib import Path
+from scipy.stats import linregress
+from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+import numpy as np
+import warnings
+import scipy.stats as st
+import seaborn as sns
+from matplotlib.ticker import FuncFormatter
+from scipy import stats
+warnings.filterwarnings('ignore')
+%matplotlib inline
 
 Leanring Experiences and Limititations:
 Finding relative data sets that match our project goals.
